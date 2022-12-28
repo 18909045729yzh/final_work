@@ -1,6 +1,7 @@
-#  如何加载 obj 模型 
+#   计算机图形学大作业
+##  如何加载 obj 模型 
 这里我们通过创建了一个 model 类在其中实现 obj 模型的加载和展示
-class Objmodel {
+···class Objmodel {
 private:
  //obj模型信息
  vector< vector<GLfloat>> vertex;
@@ -30,4 +31,4 @@ public:
  vector<GLfloat> getCenter();
  //计算模型顶点法向
  void calculateNormal();
-};
+};···
